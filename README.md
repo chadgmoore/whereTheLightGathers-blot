@@ -7,7 +7,7 @@ This is a theme for use with the [blot.im](http://blot.im) blogging platform. It
 
 This theme is authored by [Chad Moore](https://chadmoore.net). Feel free to fork it and modify it. Send me an [email](mailto:chad@chadmoore.net) to tell me all about the cool things you do with it.
 
-
+**WARNING: I'm not a developer, and can't support you very much in your explorations with the theme. Please use at your own risk.**
 
 ## Install
 

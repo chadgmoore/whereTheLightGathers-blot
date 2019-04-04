@@ -1,9 +1,9 @@
 # whereTheLightGathers-blot
 A theme for the Blot blogging platform
 
-This theme was heavily inspired by the designs of [Leo Babauta](https://leobabauta.com) website [mnmlist](http://mnmlist.com/) and the work of [Manuel Moreale](https://manuelmoreale.com). 
+This theme was heavily inspired by the design of [mnmlist](http://mnmlist.com/), a website by [Leo Babauta](https://leobabauta.com) and the work of [Manuel Moreale](https://manuelmoreale.com). 
 
-This is a theme foe use with the [blot.im](http://blot.im) blogging platform. It's wonderful, you should check it out.
+This is a theme for use with the [blot.im](http://blot.im) blogging platform. It's wonderful, you should check it out.
 
 This theme is authored by [Chad Moore](https://chadmoore.net). Feel free to fork it and modify it. Send me an [email](mailto:chad@chadmoore.net) to tell me all about the cool things you do with it.
 
@@ -11,7 +11,7 @@ This theme is authored by [Chad Moore](https://chadmoore.net). Feel free to fork
 
 ## Install
 
-1. I am not sure how to install this, I'll update this when I figure it out.
+1. I am not sure how to install this as it's not a default theme option in Blot, I'll update this when I figure it out.
 
 
 

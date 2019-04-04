@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+  {{> head}}
+  <link rel="pingback" href="https://webmention.io/SOME SITE/xmlrpc" />
+  <link rel="webmention" href="https://webmention.io/SOME SITE/webmention" />
+  <body>
+    {{> header}}
+
+    {{#entry}}
+    <div class="entry">
+
+      {{{html}}}
+
+
+
+      {{#tags.length}}
+      <small>
+        {{#tags}}
+          <a href="/tagged/{{slug}}">#{{tag}}</a>  
+        {{/tags}}
+      </small>
+      {{/tags.length}}
+
+      {{#date}}
+      <p align="right"><small>Posted on {{date}}</small></p>
+      {{/date}}
+      
+      {{> pluginHTML}}
+
+      <br><br>
+      </div>
+
+
+    {{/entry}}
+        
+        <!-- <hr = 50%>
+        <h3>Webmentions</h3>
+          <ol class="mentions-list">
+          </ol>
+        <hr = 25%>
+        <h3>Comments</h3>
+          <ol class="commentlist">
+          </ol>           
+        <hr = 25%>
+         -->
+<br>
+<div  class="about">
+  Where the Light Gathers is a them for <a href="http://blot.im">Blot</a>, designed by <a href="http://chadmoore.net" target="_blank">Chad Moore</a>. 
+</div>
+<br>
+       {{#archives}}
+      {{#months}}
+      <hr>
+      <h3 class="archive">{{month}} {{year}}&nbsp;&nbsp;<small>{{entries.length}} post{{s}}</small></h3>
+
+      <small>
+      {{#entries}}
+      <a class="archive" href="{{url}}">{{title}}</a>{{^last}}&nbsp;&nbsp;·&nbsp;{{/last}}
+      {{/entries}}
+      </small>
+
+      
+
+      <br>
+      {{/months}}
+    {{/archives}}
+  <br><br><br>
+
+    {{> footer}}
+  </body>
+</html>

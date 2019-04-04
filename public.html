@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <link rel="pingback" href="https://webmention.io/SOME SITE/xmlrpc" />
+  <link rel="webmention" href="https://webmention.io/SOME SITE/webmention" />
+  <body>
+    <style>
+      body {margin: 2em;}
+      td, tr {border:none;}
+    </style>
+    <h1>
+      {{#breadcrumbs}}
+      <a href="{{path}}">{{name}}</a> /
+      {{/breadcrumbs}}
+      {{dirname}}
+    </h1>
+    <table>
+      {{#contents}}
+      <tr>
+        <td><a href="{{path}}">{{name}}</a></td>
+      </tr>
+      {{/contents}}
+    </table>
+  </body>
+</html>

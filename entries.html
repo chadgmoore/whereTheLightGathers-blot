@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <body>
+
+    {{> header}}
+
+    <br><br>
+    
+    {{#entries}}
+    {{#metadata.post}}
+        <p>
+            {{{html}}}
+        </p>
+
+     {{/metadata.post}}
+
+    {{#metadata.micro}}
+        <p>
+            <p>{{{title}}}</p>
+        </p>
+    {{/metadata.micro}}
+
+{{/entries}}
+<br>
+<div  class="about">
+  Where the Light Gathers is a them for <a href="http://blot.im">Blot</a>, designed by <a href="http://chadmoore.net" target="_blank">Chad Moore</a>. 
+</div>
+<br>
+     {{#archives}}
+      {{#months}}
+      <hr>
+      <h3 class="archive">{{month}} {{year}}&nbsp;&nbsp;<small>{{entries.length}} post{{s}}</small></h3>
+
+      <small>
+      {{#entries}}
+      <a class="archive" href="{{url}}">{{title}}</a>{{^last}}&nbsp;&nbsp;·&nbsp;{{/last}}
+      {{/entries}}
+      </small>
+
+      
+
+      <br>
+      {{/months}}
+    {{/archives}}
+
+
+<br><br><br>
+    
+
+
+
+    <br>
+
+    {{> footer}}
+  </body>
+</html>

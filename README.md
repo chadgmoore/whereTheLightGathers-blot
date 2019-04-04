@@ -21,8 +21,6 @@ You'll have to edit the `entry.html` and `entries.html` files to remove my cusom
 
 As for styles, you'll have to be mindful of the purple. #9A14CC and #bd8ece are the colors I've used. You can edit them in lines 15 and 16 of the `style.css` file. 
 
-I've left the microblog.html and microblog.rss files if you want to edit those to include a [micro.blog](http://micro.blog) feed in your site. I wrote a tutorial on that, [here](https://blog.chadmoore.net/2019/04/04/setting-up-blotim.html).
-
 You'll have to edit the `head.html` file to make the site your own.
 
 And `script.js` and `public.html`if you want webmentions

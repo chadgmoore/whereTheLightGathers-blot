@@ -14,8 +14,8 @@ This theme is authored by [Chad Moore](https://chadmoore.net). Feel free to fork
 The developer of Blot is working on a better way to install themes from other users. Until then, it's a manual process:
 1. Download this theme
 2. In the Blot settings, create a new template
-3. Enable local editing (the files will download to your Templates folder under Blot (usually in your dropbox folder)
-4. Replacethe files created by Blot for these files
+3. Enable local editing. The files will download to your Templates folder under Blot (usually in your dropbox folder)
+4. Replacethe files created by Blot with these files from github
 
 
 
